@@ -23,8 +23,8 @@ tribal-village = "tribal_village_env.cli:app"
 include-package-data = true
 
 [project.urls]
-Homepage = "https://github.com/Metta-AI/coworld-tribal-village"
-Repository = "https://github.com/Metta-AI/coworld-tribal-village.git"
+Homepage = "https://github.com/softmax-universe/coworld-tribal-village"
+Repository = "https://github.com/softmax-universe/coworld-tribal-village.git"
 
 [project.optional-dependencies]
 pufferlib = [

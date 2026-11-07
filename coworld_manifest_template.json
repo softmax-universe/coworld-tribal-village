@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Metta-AI/coworld/main/src/coworld/coworld_manifest_schema.json",
+  "$schema": "https://raw.githubusercontent.com/softmax-universe/coworld/main/src/coworld/coworld_manifest_schema.json",
   "tags": ["strategy", "team-based", "survival"],
   "game": {
     "name": "tribal_village",
@@ -13,7 +13,7 @@
         "-m",
         "tribal_village_env.coworld.server"
       ],
-      "source_url": "https://github.com/Metta-AI/coworld-tribal-village/tree/main"
+      "source_url": "https://github.com/softmax-universe/coworld-tribal-village/tree/main"
     },
     "config_schema": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -137,18 +137,18 @@
     "protocols": {
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/tribal_village_env/coworld/docs/player_protocol_spec.md"
+        "value": "https://github.com/softmax-universe/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/tribal_village_env/coworld/docs/player_protocol_spec.md"
       },
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/tribal_village_env/coworld/docs/global_protocol_spec.md"
+        "value": "https://github.com/softmax-universe/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/tribal_village_env/coworld/docs/global_protocol_spec.md"
       },
       "engine_runtime": "nimgrid"
     },
     "docs": {
       "readme": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/README.md"
+        "value": "https://github.com/softmax-universe/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/README.md"
       },
       "pages": [
         {
@@ -156,7 +156,7 @@
           "title": "rules.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/docs/rules.md"
+            "value": "https://github.com/softmax-universe/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/docs/rules.md"
           }
         },
         {
@@ -164,7 +164,7 @@
           "title": "play_tribal_village.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/docs/play_tribal_village.md"
+            "value": "https://github.com/softmax-universe/coworld-tribal-village/blob/6683204b649732bf9bded795d3634ff1552602c3/docs/play_tribal_village.md"
           }
         }
       ]
@@ -179,7 +179,7 @@
       "run": [
         "/bin/villager"
       ],
-      "source_url": "https://github.com/Metta-AI/coworld-tribal-village/tree/main/players/villager",
+      "source_url": "https://github.com/softmax-universe/coworld-tribal-village/tree/main/players/villager",
       "description": "Bundled native Nim player that mirrors the episode deterministically and replays the built-in role-based scripted AI through the Coworld player WebSocket."
     }
   ],
@@ -190,7 +190,7 @@
       "name": "Tribal Village Team Commissioner",
       "type": "commissioner",
       "description": "Seats one distinct entrant policy in each village and gives it all six teammates.",
-      "source_url": "https://github.com/Metta-AI/coworld-tribal-village/tree/main/commissioner/commissioners/ruleset_strategy_commissioner",
+      "source_url": "https://github.com/softmax-universe/coworld-tribal-village/tree/main/commissioner/commissioners/ruleset_strategy_commissioner",
       "image": "{{COMMISSIONER_IMAGE}}"
     }
   ],

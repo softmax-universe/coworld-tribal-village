@@ -8,7 +8,7 @@
 <!-- COWORLD-REPO-STATUS:START -->
 > [!NOTE]
 > Coworld repo status: **canonical and certified** (`coworld`; the obsolete `coworld-template` topic should not be present).
-> Canonical repository: `Metta-AI/coworld-tribal-village`.
+> Canonical repository: `softmax-universe/coworld-tribal-village`.
 > Canonical release: `tribal_village:0.1.30` (`cow_6e77a73f-dd53-4371-b598-4965c0ffb12b`).
 > Manifest template: `coworld_manifest_template.json` (resolved by `coworld build`).
 > Build path: `Dockerfile`, `players/villager/Dockerfile`
@@ -19,7 +19,7 @@
 
 
 Multi-agent RL playground in Nim with a Python wrapper (PufferLib compatible). Two to eight teams of six agents compete for
-resources while hostile tumors spread a freezing “clippy” tint across the map. Code: <https://github.com/Metta-AI/coworld-tribal-village>
+resources while hostile tumors spread a freezing “clippy” tint across the map. Code: <https://github.com/softmax-universe/coworld-tribal-village>
 
 <img width="2932" height="1578" alt="image" src="https://github.com/user-attachments/assets/b1736191-ff85-48fa-b5cf-f47e441fd118" />
 
@@ -93,7 +93,7 @@ JSON: an initial seed/config plus base64-encoded per-tick action deltas, not ren
 
 When docs, commands, runtime behavior, logs, or replays disagree while you are
 building or submitting a Tribal Village policy, preserve the evidence and file
-an issue in the Coworld repo: <https://github.com/Metta-AI/coworld/issues>.
+an issue in the Coworld repo: <https://github.com/softmax-universe/coworld/issues>.
 Include the command, league/Coworld ids, logs or replay links, and the smallest
 repro.
 
