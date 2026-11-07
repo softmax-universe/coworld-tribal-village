@@ -39,7 +39,7 @@ jobs:
       - name: Compute tags
         id: tags
         run: |
-          REPO="${{ env.REGISTRY }}/metta-ai/coworld-tribal-village-commissioner"
+          REPO="${{ env.REGISTRY }}/softmax-universe/coworld-tribal-village-commissioner"
           SHORT_SHA="${GITHUB_SHA::12}"
           if [[ "${{ github.event_name }}" == "pull_request" ]]; then
             TAGS="${REPO}:pr-${{ github.event.number }}"
