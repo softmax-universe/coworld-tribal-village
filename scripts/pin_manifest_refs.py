@@ -9,8 +9,8 @@ import subprocess
 from pathlib import Path
 
 REPO_PREFIXES = (
-    "https://github.com/Metta-AI/coworld-tribal-village/blob/main",
-    "https://github.com/Metta-AI/coworld-tribal-village/tree/main",
+    "https://github.com/softmax-universe/coworld-tribal-village/blob/main",
+    "https://github.com/softmax-universe/coworld-tribal-village/tree/main",
 )
 
 
@@ -27,7 +27,7 @@ def pin(value: object, sha: str) -> object:
                 if suffix and not suffix.startswith("/"):
                     continue
                 return (
-                    "https://github.com/Metta-AI/coworld-tribal-village/"
+                    "https://github.com/softmax-universe/coworld-tribal-village/"
                     f"{kind}/{sha}{suffix}"
                 )
     return value

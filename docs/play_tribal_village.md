@@ -12,5 +12,5 @@ Replay mode autoplays, loops, draws `#slot name` labels above agents, and suppor
 Replay artifacts store only the deterministic initial config plus compact per-tick action deltas.
 
 When docs, commands, runtime behavior, logs, or replays disagree, preserve the evidence and file an issue in the
-Coworld repo: https://github.com/Metta-AI/coworld/issues. Include the command, league/Coworld ids, logs or replay links,
+Coworld repo: https://github.com/softmax-universe/coworld/issues. Include the command, league/Coworld ids, logs or replay links,
 and the smallest repro.

@@ -42,5 +42,5 @@ How it works:
 
 If docs, commands, runtime behavior, logs, or replays disagree while you use
 this player as a starting point, preserve the evidence and file an issue at
-<https://github.com/Metta-AI/coworld/issues> with the command, league/Coworld
+<https://github.com/softmax-universe/coworld/issues> with the command, league/Coworld
 ids, logs or replay links, and the smallest repro.
